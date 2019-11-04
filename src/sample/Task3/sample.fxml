@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:controller="sample.Task3.Controller" xmlns:fx="http://javafx.com/fxml">
+    <ComboBox layoutY="10" layoutX="10" fx:id="who" />
+    <ComboBox layoutY="10" layoutX="120" fx:id="go"/>
+    <ComboBox layoutY="10" layoutX="225" fx:id="where"/>
+    <TextArea fx:id="area" layoutX="10" prefWidth="337" AnchorPane.bottomAnchor="10" AnchorPane.topAnchor="40"/>
+    <Button layoutY="230" layoutX="360" text="Добавить фразу" onAction="#addPhrase"/>
+    <Button layoutY="265" layoutX="360" text="Закрыть" onAction="#close"/>
+</AnchorPane>

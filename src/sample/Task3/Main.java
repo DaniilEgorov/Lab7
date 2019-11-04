@@ -1,4 +1,4 @@
-package sample.Task2;
+package sample.Task3;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        primaryStage.setTitle("Попадание в область");
-        primaryStage.setScene(new Scene(root, 400, 300));
+        primaryStage.setTitle("Электронный писатель");
+        primaryStage.setScene(new Scene(root, 500, 300));
         primaryStage.show();
     }
 
